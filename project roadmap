@@ -1,3 +1,10 @@
+## Sprint 1 Tasks
+- [x] Create GitHub repository
+- [x] Create README.md
+- [x] Write project idea
+- [x] Find related Python project on GitHub
+- [ ] Test existing code and document findings
+
 Sellestial Roadmap
 ==================
 
@@ -56,3 +63,11 @@ Goal
 - Sell at higher prices
 - Manage fuel costs
 - Grow total money over time
+
+Related Project
+----
+- https://github.com/abadger/stellarmagnate
+
+
+- Both projects share core mechanics, including traveling between regions, buying and selling items at different prices, and growing player wealth over time. 
+- Uses basic Python structures such as functions, lists, and dictionaries.
