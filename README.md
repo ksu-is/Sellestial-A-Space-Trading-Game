@@ -1,6 +1,3 @@
-# Sellestial-A-Space-Trading-Game
-
-
 Sellestial
 ==========
 
