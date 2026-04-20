@@ -115,3 +115,18 @@ rare_items = {
         "sell_price": 210
     }
 }
+
+COMMON_ITEMS = [
+    "Medi-gel",
+    "CPUs",
+    "Polymers",
+    "Coolant",
+    "Robotics",
+    "Silicates"
+]
+RARE_ITEMS = [
+    "Enriched Uranium",
+    "Plutonium Isotopes",
+    "Nanites",
+    "Graphene Capacitors"
+]
