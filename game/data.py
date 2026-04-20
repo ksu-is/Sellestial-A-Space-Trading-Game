@@ -1,39 +1,71 @@
-# data.py
-
-# Currency
-CURRENCY = "SC"
-
-# Fuel conversion
 ZJ_PER_AU = 23
 
-# Regions and travel distances
 regions = {
     "Nyx": {
-        "fuel_price": 0.15,
+        "fuel_price": 0.15,  # SC per ZJ
+        "prices": {
+            "Medi-gel": 12,
+            "CPU's": 25,
+            "Polymers": 18,
+            "Coolant": 10,
+            "Robotics": 40,
+            "Silicates": 15,
+            "Enriched Uranium": 90
+        },
         "routes": {
             "Barak": 3,
             "Azrael": 4,
             "Abaddon": 6
         }
     },
+
     "Barak": {
         "fuel_price": 0.18,
+        "prices": {
+            "Medi-gel": 15,
+            "CPU's": 20,
+            "Polymers": 22,
+            "Coolant": 14,
+            "Robotics": 35,
+            "Silicates": 18,
+            "Plutonium Isotopes": 95
+        },
         "routes": {
             "Nyx": 3,
             "Azrael": 5,
             "Abaddon": 8
         }
     },
+
     "Azrael": {
         "fuel_price": 0.12,
+        "prices": {
+            "Medi-gel": 10,
+            "CPU's": 30,
+            "Polymers": 16,
+            "Coolant": 9,
+            "Robotics": 45,
+            "Silicates": 20,
+            "Nanites": 110
+        },
         "routes": {
             "Nyx": 4,
             "Barak": 5,
             "Abaddon": 3
         }
     },
+
     "Abaddon": {
         "fuel_price": 0.22,
+        "prices": {
+            "Medi-gel": 18,
+            "CPU's": 35,
+            "Polymers": 14,
+            "Coolant": 20,
+            "Robotics": 50,
+            "Silicates": 12,
+            "Graphene Capacitors": 120
+        },
         "routes": {
             "Nyx": 6,
             "Barak": 8,
@@ -42,36 +74,29 @@ regions = {
     }
 }
 
-# Item prices per region
-items = {
-    "Water": {
-        "Nyx": 10,
-        "Barak": 14,
-        "Azrael": 8,
-        "Abaddon": 16
+rare_items = {
+    "Enriched Uranium": {
+        "origin": "Nyx",
+        "destination": "Abaddon",
+        "buy_price": 90,
+        "sell_price": 180
     },
-    "Food Rations": {
-        "Nyx": 20,
-        "Barak": 18,
-        "Azrael": 25,
-        "Abaddon": 30
+    "Plutonium Isotopes": {
+        "origin": "Barak",
+        "destination": "Azrael",
+        "buy_price": 95,
+        "sell_price": 185
     },
-    "Medical Supplies": {
-        "Nyx": 50,
-        "Barak": 65,
-        "Azrael": 55,
-        "Abaddon": 80
+    "Nanites": {
+        "origin": "Azrael",
+        "destination": "Nyx",
+        "buy_price": 110,
+        "sell_price": 200
     },
-    "Electronics": {
-        "Nyx": 120,
-        "Barak": 100,
-        "Azrael": 140,
-        "Abaddon": 170
-    },
-    "Rare Minerals": {
-        "Nyx": 200,
-        "Barak": 260,
-        "Azrael": 180,
-        "Abaddon": 300
+    "Graphene Capacitors": {
+        "origin": "Abaddon",
+        "destination": "Barak",
+        "buy_price": 120,
+        "sell_price": 210
     }
 }
