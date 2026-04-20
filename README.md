@@ -1,6 +1,6 @@
 Sellestial
 ==========
-
+00
 Sellestial is a text-based space trading game where players buy low, sell high across different regions while managing fuel and upgrading their ship to maximize profits.
 
 Overview
