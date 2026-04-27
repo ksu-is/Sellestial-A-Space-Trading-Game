@@ -8,3 +8,4 @@
 - Buy stations that will generate passive income for you.
 - Hire NPC fleets to fly one of the purchased ships that will generate passive income for you
 - ship loss - back to square zero with your uncle's clunky hand-me-down Ymir
+- add timed text, immersive, story-driven details, and dialogue. Give the environment some life.
