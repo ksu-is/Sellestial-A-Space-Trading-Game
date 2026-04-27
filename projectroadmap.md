@@ -3,7 +3,7 @@
 - [x] Create README.md
 - [x] Write project idea
 - [x] Find related Python project on GitHub
-- [ ] Test existing code and document findings
+- [x] Test existing code and document findings
 
 ---
 
@@ -16,41 +16,44 @@ This roadmap outlines the core features of Sellestial, a text-based space-tradin
 ## Core Features
 
 ### Player System
-- [ ] Starting wallet (money)
-- [ ] Fuel system
-- [ ] Inventory (list of items)
-- [ ] Cargo capacity (starts at 1)
+- [x] Starting wallet (money)
+- [x] Fuel system
+- [x] Inventory (list of items)
+- [x] Cargo capacity (starts at 1)
+- [] Implement "Save Game" feature
 
 ### Market System
-- [ ] Multiple regions
-- [ ] Different buy/sell prices per region
+- [x] Multiple regions
+- [x] Different buy/sell prices per region
+- [x] Fluctuating prices
+
 
 ### Trading System
-- [ ] Buy items (if enough money and space)
-- [ ] Sell items (if owned)
-- [ ] Track profit from trades
+- [x] Buy items (if enough money and space)
+- [x] Sell items (if owned)
+- [] Track profit from trades
 
 ### Travel System
-- [ ] Travel between regions
-- [ ] Each trip costs fuel
-- [ ] Prevent travel if not enough fuel
+- [x] Travel between regions
+- [x] Each trip costs fuel
+- [x] Prevent travel if not enough fuel
 
 ### Ship Upgrades
-- [ ] Upgrade to a better ship to increase cargo capacity and fuel efficiency
-- [ ] Each upgrade allows +1 item
-- [ ] Upgrades cost money
+- [x] Upgrade to a better ship to increase cargo capacity and fuel efficiency
+- [x] Each upgrade allows +1 item
+- [x] Upgrades cost money
 
 ---
 
 ## Game Flow
-- [ ] Display player status (wallet, fuel, inventory)
-- [ ] Show market prices in the current region
+- [x] Display player status (wallet, fuel, inventory)
+- [x] Show market prices in the current region
 - Allow player to:
-  - [ ] Buy
-  - [ ] Sell
-  - [ ] Travel
-  - [ ] Upgrade ship
-- [ ] Repeat actions in a loop until player quits
+  - [x] Buy
+  - [x] Sell
+  - [x] Travel
+  - [x] Upgrade ship
+- [x] Repeat actions in a loop until player quits
 
 ---
 
