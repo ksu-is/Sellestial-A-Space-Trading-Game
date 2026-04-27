@@ -18,20 +18,23 @@ This roadmap outlines the core features of Sellestial, a text-based space-tradin
 ### Player System
 - [x] Starting wallet (money)
 - [x] Fuel system
+- [x] display list of commands
 - [x] Inventory (list of items)
 - [x] Cargo capacity (starts at 1)
-- [] Implement "Save Game" feature
+- [ ] Implement "Save Game" feature
 
 ### Market System
 - [x] Multiple regions
 - [x] Different buy/sell prices per region
 - [x] Fluctuating prices
+- [x] compare two regions' prices and potential profits/losses
 
 
 ### Trading System
 - [x] Buy items (if enough money and space)
 - [x] Sell items (if owned)
-- [] Track profit from trades
+- [x] adjustable markets 
+- [ ] Track profit from trades (ledger possibly)
 
 ### Travel System
 - [x] Travel between regions
@@ -46,6 +49,7 @@ This roadmap outlines the core features of Sellestial, a text-based space-tradin
 ---
 
 ## Game Flow
+- [x] Name character and ship.
 - [x] Display player status (wallet, fuel, inventory)
 - [x] Show market prices in the current region
 - Allow player to:
@@ -54,6 +58,7 @@ This roadmap outlines the core features of Sellestial, a text-based space-tradin
   - [x] Travel
   - [x] Upgrade ship
 - [x] Repeat actions in a loop until player quits
+
 
 ---
 
