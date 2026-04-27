@@ -130,3 +130,34 @@ RARE_ITEMS = [
     "Nanites",
     "Graphene Capacitors"
 ]
+
+# ======================
+# SHIP DATA
+# ======================
+
+ships = {
+    "Ymir": {
+        "cargo_capacity": 1,
+        "max_fuel": 2000,
+        "price": 0,
+        "description": "A rugged, aging freighter issued to new pilots.\nBuilt from salvaged war-era hulls, the Ymir won’t impress anyone—but it will get you from system to system if you treat it right."
+    },
+    "Huldra": {
+        "cargo_capacity": 2,
+        "max_fuel": 3000,
+        "price": 2000,
+        "description": "A sleek civilian hauler favored by independent traders.\nEfficient, reliable, and built for those ready to start making real profit."
+    },
+    "Fafnir": {
+        "cargo_capacity": 3,
+        "max_fuel": 4000,
+        "price": 4000,
+        "description": "A heavily reinforced industrial freighter.\nDesigned for high-risk trade routes and serious merchants."
+    },
+    "Jotunn": {
+        "cargo_capacity": 4,
+        "max_fuel": 5000,
+        "price": 6000,
+        "description": "A massive deep-space carrier.\nMore than a ship—it’s a moving economy."
+    }
+}
