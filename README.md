@@ -35,6 +35,11 @@ Gameplay
 - Upgrade your ship to carry more items
 - Repeat and grow your wallet and buy better ships.
 
+
+How to play
+--------
+- Simply run the main.py in your dedicated terminal 
+
 Author
 ------
 
