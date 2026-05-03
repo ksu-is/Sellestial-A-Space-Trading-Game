@@ -18,7 +18,9 @@ def warp_sequence(start_region, destination, distance, fuel_cost):
         f"Your warp drive begings to spool as you plot your course \n from {start_region} to {destination}...",
         "",
         "\"Warp drive activated...\"",
+        "",
         "...",
+        "",
         "Time seems to slow as your hull begins to shake.",
         "",
         "The stars begin to bend around your hull, as if aware of your passing",
@@ -28,7 +30,9 @@ def warp_sequence(start_region, destination, distance, fuel_cost):
         "...",
         "",
         "Your ship trembles back to life.",
+        "",
         "...",
+        "",
         f"Exiting warp near {destination}...",
         ""        
     ]
